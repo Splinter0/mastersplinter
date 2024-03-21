@@ -28,7 +28,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -58,12 +58,14 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Tobia Righi
-    subtitle: "I'm a Security Researcher and Software Engineer that loves to build but especially break stuff \U0001F528"
+    subtitle: "I'm a Security Researcher and Software Engineer that loves to build but especially break stuff \U0001F528 Contact me on Linkedin or on my email for information about my research or for pentesting services."
     buttons:
       - name: Research
         url: research
       - name: CV
         url: cv
+      - name: Email
+        url: mailto:tobia@mastersplinter.work
 
   # home-info mode
   homeInfoParams:
@@ -102,18 +104,14 @@ menu:
       name: research
       url: /research/
       weight: 10
+    - identifier: writeups
+      name: ctf writeups
+      url: /writeup/
+      weight: 20
     - identifier: cv
       name: cv
       url: /cv/
-      weight: 20
-    - identifier: projects
-      name: projects
-      url: /projects/
       weight: 30
-    - identifier: ctf
-      name: ctf writeups
-      url: /ctf-writeups/
-      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -122,5 +120,5 @@ markup:
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
-    # lineNos: true
+    lineNos: true
     # style: monokai

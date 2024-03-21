@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mastersplinter.work/sitemap.xml
