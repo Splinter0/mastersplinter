@@ -1,0 +1,12 @@
+.side-image {
+    float:left;
+    margin-right: 20px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+  }

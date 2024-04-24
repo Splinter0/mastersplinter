@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tobia Righi - Security Researcher</title>
-    <link>https://mastersplinter.work/</link>
-    <description>Recent content on Tobia Righi - Security Researcher</description>
+    <title>Writeups on Tobia Righi - Security Researcher</title>
+    <link>https://mastersplinter.work/writeup/</link>
+    <description>Recent content in Writeups on Tobia Righi - Security Researcher</description>
     <image>
       <title>Tobia Righi - Security Researcher</title>
       <url>https://mastersplinter.work/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 14 Apr 2023 12:12:44 +0100</lastBuildDate>
-    <atom:link href="https://mastersplinter.work/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mastersplinter.work/writeup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HackTheBox - Web Challenge: ExpressionalRebel</title>
       <link>https://mastersplinter.work/writeup/expressional-rebel/</link>
@@ -29,14 +29,6 @@ The vulnerable application was written in NodeJS, in this case we are provided t
       <guid>https://mastersplinter.work/writeup/ml-sec/</guid>
       <description>This blogpost contains the process and solution which got me 2nd place in the ML Security Evasion Competition sponsored by Adversa AI, CUJO AI, and Robust Intelligence.
 The Phishing Challenge The challenge I focused on in this competition was their phishing detection evasion challenge. The goal of the challenge was to evade 8 machine learning models designed to detect phishing pages while maintaining the look of the pages pixel perfect.</description>
-    </item>
-    <item>
-      <title>TensorFlow Remote Code Execution with Malicious Model</title>
-      <link>https://mastersplinter.work/research/tensorflow-rce/</link>
-      <pubDate>Thu, 29 Sep 2022 12:12:44 +0100</pubDate>
-      <guid>https://mastersplinter.work/research/tensorflow-rce/</guid>
-      <description>The purpose of this article is to show how to get RCE when a crafted malicious Tensorflow model is loaded. Remember all of this is for educational purposes only! Don&amp;rsquo;t be mean!
-Tensorflow Models are Programs This article is in no way reporting a vulnerability in the Tensorflow python module. As it can be read in the SECURITY section of the project, Tensorflow models should be treated as programs and thus from a security you should not load (run) untrusted models in your application.</description>
     </item>
   </channel>
 </rss>

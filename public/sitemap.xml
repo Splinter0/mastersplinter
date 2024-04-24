@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mastersplinter.work/writeup/expressional-rebel/</loc>
+    <lastmod>2023-04-14T12:12:44+01:00</lastmod>
+  </url><url>
+    <loc>https://mastersplinter.work/</loc>
+    <lastmod>2023-04-14T12:12:44+01:00</lastmod>
+  </url><url>
+    <loc>https://mastersplinter.work/writeup/</loc>
+    <lastmod>2023-04-14T12:12:44+01:00</lastmod>
+  </url><url>
+    <loc>https://mastersplinter.work/writeup/ml-sec/</loc>
+    <lastmod>2022-09-29T12:12:44+01:00</lastmod>
+  </url><url>
+    <loc>https://mastersplinter.work/research/</loc>
+    <lastmod>2022-09-29T12:12:44+01:00</lastmod>
+  </url><url>
+    <loc>https://mastersplinter.work/research/tensorflow-rce/</loc>
+    <lastmod>2022-09-29T12:12:44+01:00</lastmod>
+  </url><url>
+    <loc>https://mastersplinter.work/cv/</loc>
+  </url><url>
     <loc>https://mastersplinter.work/categories/</loc>
   </url><url>
     <loc>https://mastersplinter.work/tags/</loc>
-  </url><url>
-    <loc>https://mastersplinter.work/</loc>
   </url>
 </urlset>
