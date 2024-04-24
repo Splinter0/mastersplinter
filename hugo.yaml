@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Tobia Righi
-    subtitle: "I'm a Security Researcher and Software Engineer that loves to build but especially break stuff \U0001F528 Contact me on Linkedin or on my email for information about my research or for pentesting services."
+    subtitle: "I'm a Security Researcher and Software Engineer that loves to build but especially break stuff \U0001F528 Feel free to contact me on Linkedin or on my email for information about my research or other."
     buttons:
       - name: Research
         url: research
@@ -76,6 +76,8 @@ params:
       url: "https://github.com/Splinter0"
     - name: linkedin
       url: "https://linkedin.com/in/trighi"
+    - name: twitter
+      url: "https://twitter.com/m4st3rspl1nt3r"
 
   cover:
     hidden: true # hide everywhere but not in structured data
