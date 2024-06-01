@@ -17,6 +17,12 @@ My goal in life is to learn something new everyday, being around great people an
 ----
 ## Experience
 
+#### Self employed - Bug Bounty Hunter
+February 2024 - Present
+- Focusing on novel attacks against authentication and access control solutions and applying them to various bug bounty programs.
+- Hacking on YesWeHack, Intigriti and HackerOne
+- Submitted 5+ critical and 10+ high findings in the first 3 months of bug bounty hunting
+
 #### Debricked - Backend Engineer & Security Champion
 June 2021 - February 2024
 - Part of the core team developing a developer-centric SCA tool from startup phase to acquisition.
@@ -28,8 +34,11 @@ June 2021 - February 2024
 - Leading internal application security initiatives, bug bounty program and Capture The Flag competitions.
 - Responsible for the **product security** of Debricked within the OpenText organization.
 
+<br/>
+<br/>
+
 #### Synack Red Team - Security Researcher
-March 2023 - Present (Part-time)
+March 2023 - February 2024
 - Hunting bugs on private programs in web applications and APIs
 
 ----
@@ -37,6 +46,7 @@ March 2023 - Present (Part-time)
 
 - [Intigriti](https://app.intigriti.com/profile/mastersplinter)
 - [YesWeHack](https://yeswehack.com/hunters/mastersplinter)
+- [HackerOne](https://hackerone.com/mastersplinter?type=user)
 ----
 ## Certifications
 
@@ -62,21 +72,21 @@ Year of Graduation: 2025 (Part time)
 	- Rust and PowerShell
 - 7+ years writing software, 3 of which professionally.
 - Web & API pentesting techniques
+- Vulnerability research processes
 - SCA and vulnerability assesment tools
 - Kubernetes & Docker
 - CI/CD systems, Gitlab, Github and Azure
 - DevSecOps experience with AWS and Google Cloud
 - Bash and Linux administration skills
-- Experience in NIST Cybersecurity Framework
 - Software Supply Chain Security expertise
-- Deep knowledge with SCRUM and AGILE frameworks
+- Experience with SCRUM and AGILE frameworks
 
 
 ----
 
 ## Recent Achievements
-- Hosted two CTF challenges at Lund university
-- Published a challenge on HackTheBox based on independent security research carried out on Tensorflow
+- Published a new research blog about vulnerabilities found in Swedish BankID configurations
+- Published a challenge on HackTheBox demonstrating a novel way to attack OIDC implementations
 - Entered Pwn2Own 2024 and carrying out security research on smart devices in the automotive industry.
 
 ----
@@ -87,3 +97,4 @@ Year of Graduation: 2025 (Part time)
 - Security research: [https://mastersplinter.work/research/](https://mastersplinter.work/research/)
 - GitHub: [https://github.com/Splinter0](https://github.com/Splinter0)
 - Linkedin: [www.linkedin.com/in/trighi](www.linkedin.com/in/trighi)
+- X/Twitter: [https://twitter.com/m4st3rspl1nt3r](https://twitter.com/m4st3rspl1nt3r)
