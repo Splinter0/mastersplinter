@@ -23,7 +23,7 @@ February 2024 - Present
 - Hacking on YesWeHack, Intigriti and HackerOne
 - Submitted 5+ critical and 10+ high findings in the first 3 months of bug bounty hunting
 
-#### Debricked - Backend Engineer & Security Champion
+#### Debricked - Backend Engineer & Application Security Specialist
 June 2021 - February 2024
 - Part of the core team developing a developer-centric SCA tool from startup phase to acquisition.
 - Responsible for driving **feature development** such as:
@@ -96,5 +96,5 @@ Year of Graduation: 2025 (Part time)
 - Mail: [splint@protonmail.com](mailto:splint@protonmail.com)
 - Security research: [https://mastersplinter.work/research/](https://mastersplinter.work/research/)
 - GitHub: [https://github.com/Splinter0](https://github.com/Splinter0)
-- Linkedin: [www.linkedin.com/in/trighi](www.linkedin.com/in/trighi)
+- Linkedin: [https://www.linkedin.com/in/trighi](https://www.linkedin.com/in/trighi)
 - X/Twitter: [https://twitter.com/m4st3rspl1nt3r](https://twitter.com/m4st3rspl1nt3r)
