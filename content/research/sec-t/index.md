@@ -1,5 +1,5 @@
 ---
-title: 'Presenting BankID Hijacking and other Cross-Device mis-configuration in Cross-Device protocols'
+title: 'Sec-T presentation on BankID Hijacking and other mis-configuration in Cross-Device protocols'
 description: "Here is the presentation I have at Sec-T 2024 about Account Takeovers in Swedish BankID and other Cross-Device Authentication protocols"
 date: 2024-09-15T12:12:44+01:00
 draft: false
