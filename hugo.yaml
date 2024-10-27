@@ -15,7 +15,7 @@ minify:
 params:
   env: production
   title: Tobia Righi
-  description: "Software Engineer & Security Researcher"
+  description: "Security Researcher"
   keywords: [Blog, CV, Security Research]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -58,12 +58,10 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Tobia Righi
-    subtitle: "I'm a Security Researcher and Software Engineer that loves to build but especially break stuff \U0001F528 Feel free to contact me on Linkedin or on my email for information about my research or other."
+    subtitle: "Security researcher and bug hunter"
     buttons:
       - name: Research
         url: research
-      - name: CV
-        url: cv
       - name: Email
         url: mailto:tobia@mastersplinter.work
 
@@ -74,10 +72,11 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/Splinter0"
-    - name: linkedin
-      url: "https://linkedin.com/in/trighi"
     - name: twitter
       url: "https://twitter.com/m4st3rspl1nt3r"
+    - name: linkedin
+      url: "https://linkedin.com/in/trighi"
+
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -110,10 +109,6 @@ menu:
       name: ctf writeups
       url: /writeup/
       weight: 20
-    - identifier: cv
-      name: cv
-      url: /cv/
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
