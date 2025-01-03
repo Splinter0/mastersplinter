@@ -64,6 +64,8 @@ params:
         url: research
       - name: Email
         url: mailto:tobia@mastersplinter.work
+      - name: CV
+        url: cv
 
   # home-info mode
   homeInfoParams:
@@ -109,6 +111,10 @@ menu:
       name: ctf writeups
       url: /writeup/
       weight: 20
+    - identifier: cv
+      name: cv
+      url: /cv/
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

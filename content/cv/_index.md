@@ -17,13 +17,20 @@ My goal in life is to learn something new everyday, being around great people an
 ----
 ## Experience
 
+#### Truesec - Penetration Tester
+September 2024 - Present
+- Providing the highest quality of pentests for major Nordic clients
+- Working on web and api security, focusing on novel vulnerabilities and weaponized attack chains
+- Specializing in IoT security
+
 #### Self employed - Bug Bounty Hunter
 February 2024 - Present
 - Focusing on novel attacks against authentication and access control solutions and applying them to various bug bounty programs.
 - Hacking on YesWeHack, Intigriti and HackerOne
+- Found vulnerabilities that resulted in 6+ CVEs, one of which in 
 - Submitted 5+ critical and 10+ high findings in the first 3 months of bug bounty hunting
 
-#### Debricked - Backend Engineer & Application Security Specialist
+#### Debricked - Application Security Specialist & Backend Engineer
 June 2021 - February 2024
 - Part of the core team developing a developer-centric SCA tool from startup phase to acquisition.
 - Responsible for driving **feature development** such as:
@@ -34,12 +41,25 @@ June 2021 - February 2024
 - Leading internal application security initiatives, bug bounty program and Capture The Flag competitions.
 - Responsible for the **product security** of Debricked within the OpenText organization.
 
-<br/>
-<br/>
 
 #### Synack Red Team - Security Researcher
 March 2023 - February 2024
 - Hunting bugs on private programs in web applications and APIs
+----
+
+## Security Research work
+- Uncovering vulnerabilities in the BankID authentication protocol: [link](https://mastersplinter.work/research/bankid/)
+	- Found and reported over 20+ vulnerabilities across Swedish banks and other institutions
+	- Presented such results at the Sec-T 2024 security conference in Stockholm
+- Passkey authentication bypass vulnerability ([CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956)) in Chrome mobile and all other major browsers.
+----
+
+## CVEs
+- [CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956) Chrome Mobile
+- [CVE-2024-8273](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8273) Hypr Passwordless Platform (reserved)
+- CVE-2024-XXXX Firefox Mobile (TBA)
+- CVE-2024-XXXX Safari Mobile (TBA)
+- CVE-2024-XXXX Samsung Android OS (TBA)
 
 ----
 ## Bug Bounty Experience
@@ -70,10 +90,11 @@ Year of Graduation: 2025 (Part time)
 	- Python, PHP, Go and JavaScript
 - ##### Programming languages I am learning:
 	- Rust and PowerShell
-- 7+ years writing software, 3 of which professionally.
+- 8+ years writing software, 4 of which professionally.
 - Web & API pentesting techniques
+- IoT security best practices and exploitation
 - Vulnerability research processes
-- SCA and vulnerability assesment tools
+- SCA and vulnerability assessment tools
 - Kubernetes & Docker
 - CI/CD systems, Gitlab, Github and Azure
 - DevSecOps experience with AWS and Google Cloud
@@ -85,9 +106,9 @@ Year of Graduation: 2025 (Part time)
 ----
 
 ## Recent Achievements
+- Found a vulnerability in the PassKey implementation of all major mobile browsers
 - Published a new research blog about vulnerabilities found in Swedish BankID configurations
 - Published a challenge on HackTheBox demonstrating a novel way to attack OIDC implementations
-- Entered Pwn2Own 2024 and carrying out security research on smart devices in the automotive industry.
 
 ----
 
