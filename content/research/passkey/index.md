@@ -62,7 +62,7 @@ navigator.credentials.get({
 On supported browsers this will popup a browser built-in prompt (which the page is not in control) where the user will be able to select his Authenticator. In the case of BLE, the browser will generate a QR code and display it in the popup.
 
 
-{{< figure src="qr.png" width=1000px >}}
+{{< figure src="qr.png" width=500px >}}
 
 ![img](qr.png)
 
@@ -110,9 +110,7 @@ Here is a diagram of how those steps would look like:
 
 {{< figure src="webauthn-attack.png" width=1000px >}}
 
-![img](webauthn-attack.png)
-
-Step 2 and 3 are automated using a headless browser, it is possible to simply define the actions to be taken by then browser, trigger the WebAuthN request and then extract the `FIDO:/`. I have built a tool for testing these kind of bugs, you can find it updated with the code necessary for FIDO at [https://github.com/Splinter0/CrossCheck](https://github.com/Splinter0/CrossCheck). 
+Step 2 and 3 are automated using a headless browser, it is possible to simply define the actions to be taken by the browser, trigger the WebAuthN request and then extract the `FIDO:/`. I have built a tool for testing these kind of bugs, you can find it updated with the code necessary for FIDO at [https://github.com/Splinter0/CrossCheck](https://github.com/Splinter0/CrossCheck). 
 
 What the tool does is set up a web server that hosts the malicious page, as well as the headless browser implementation. When a victim visits the malicious page the headless browser will trigger and redirect the victim to the extracted URI. This works for a bunch of different attacks, so I encourage you to go check it out and see what kind of creative attacks you can come up with.
 
@@ -122,7 +120,18 @@ It should be noted that this entire attack can be done through a small device li
 
 All major mobile browsers were found vulnerable, in this case the vulnerability is simply allowing `FIDO:/` intents to be triggerable by a page. All fixes consisted in blacklisting such URIs from being navigable. Safari, Chrome and Firefox Mobile were all found vulnerable, below follow the video PoCs all done against the test RP [https://webauthn.io/](https://webauthn.io/) 
 
-**Insert videos**
+### Chromium
+
+{{< youtube "0D3zx4OsoRk" >}}
+
+### Safari
+
+{{< youtube "ucwvUxMmZuk" >}}
+
+### Firefox
+
+{{< youtube "H9XlOOU1rBA" >}}
+
 
 - [https://nvd.nist.gov/vuln/detail/CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956)
 - [https://issues.chromium.org/issues/370482421](https://issues.chromium.org/issues/370482421)
@@ -133,7 +142,7 @@ Some RPs allow users to simply click, "Login with PassKeys" before entering thei
 
 ### AirPort Free Wi-Fi
 
-Here the attacker has set-up the automated browser steps for multiple social logins, such as Apple, Google and perhaps LinkedIn (just picking random socials that use passkeys, also these happen to force you to pick an email before proceeding with passkeys). The attacker will drop his malicious device in a crowded area, such as an airport, and advertise a Wi-Fi access point with a login screen.
+Here the attacker has set-up the automated browser steps for multiple social logins, such as Apple, Google and perhaps LinkedIn (just picking random socials that use passkeys, also these happen to force you to pick an email before proceeding with passkeys). The attacker will drop their malicious device in a crowded area, such as an airport, and advertise a Wi-Fi access point with a login screen.
 
 The login screen will ask the victims for their email, after that it will provide them with a choice to "Login with social network to enjoy free Wi-Fi!". After the victim chooses an option, the attack will start and the victim will be redirected to the `FIDO:/` url, handing over their valid sessions to the attacker if they were to fall for the phish. The attacker will simply use the email entered on the previous phishing step to start the WebAuthN authentication on the targeted RP.
 
