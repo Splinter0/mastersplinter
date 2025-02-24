@@ -21,7 +21,7 @@ My goal in life is to learn something new everyday, being around great people an
 September 2024 - Present
 - Providing the highest quality of pentests for major Nordic clients
 - Working on web and api security, focusing on novel vulnerabilities and weaponized attack chains
-- Specializing in IoT security
+- Specializing in Web and IoT security
 
 #### Self employed - Bug Bounty Hunter
 February 2024 - Present
@@ -51,22 +51,20 @@ March 2023 - February 2024
 - Uncovering vulnerabilities in the BankID authentication protocol: [link](https://mastersplinter.work/research/bankid/)
 	- Found and reported over 20+ vulnerabilities across Swedish banks and other institutions
 	- Presented such results at the Sec-T 2024 security conference in Stockholm
-- Passkey authentication bypass vulnerability ([CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956)) in Chrome mobile and all other major browsers.
+- Passkey authentication bypass vulnerability ([CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956)) in Chrome mobile and all other major browsers. Research blogpost at: [https://mastersplinter.work/research/passkey/](https://mastersplinter.work/research/passkey/)
 ----
 
 ## CVEs
 - [CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956) Chrome Mobile
 - [CVE-2024-8273](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8273) Hypr Passwordless Platform (reserved)
-- CVE-2024-XXXX Firefox Mobile (TBA)
-- CVE-2024-XXXX Safari Mobile (TBA)
 - CVE-2024-XXXX Samsung Android OS (TBA)
 
 ----
 ## Bug Bounty Experience
 
 - [Intigriti](https://app.intigriti.com/profile/mastersplinter)
-- [YesWeHack](https://yeswehack.com/hunters/mastersplinter)
 - [HackerOne](https://hackerone.com/mastersplinter?type=user)
+- [YesWeHack](https://yeswehack.com/hunters/mastersplinter)
 ----
 ## Certifications
 
@@ -106,7 +104,7 @@ Year of Graduation: 2025 (Part time)
 ----
 
 ## Recent Achievements
-- Found a vulnerability in the PassKey implementation of all major mobile browsers
+- Published a new research blog about phishing Passkeys.
 - Published a new research blog about vulnerabilities found in Swedish BankID configurations
 - Published a challenge on HackTheBox demonstrating a novel way to attack OIDC implementations
 

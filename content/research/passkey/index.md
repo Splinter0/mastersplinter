@@ -64,8 +64,6 @@ On supported browsers this will popup a browser built-in prompt (which the page 
 
 {{< figure src="qr.png" width=500px >}}
 
-![img](qr.png)
-
 The flow is pretty simple:
 
 1. User scans the QR code
