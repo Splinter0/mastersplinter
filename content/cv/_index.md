@@ -6,13 +6,14 @@
 
 ## Whoami
 
-My passion pushing me towards this industry is my hunger to deeply understand and dissect technology. I love building new and exciting things securely but also hunting security flaws in technology. I live for those "aha!" moments when you realize how something can be exploited and improved. I truly enjoy working in teams and have found myself thriving in positions of leadership. I love being in a room where ideas are bouncing on the walls, I love finding elegant solutions to difficult problems with like-minded people.
 
-I love traveling, good food and being around people with a story to tell.
+I'm a security researcher and penetration tester with a deep passion for understanding and dissecting technology. I thrive on building innovative and secure solutions, as well as uncovering and exploiting security flaws. Those "aha!" moments, when I discover how something can be exploited and improved, are what drive me.
 
-My biggest passions except from coding and security are: Thai Boxing, cooking, skateboarding and chess.
+I enjoy collaborating with like-minded individuals, bouncing ideas around, and finding elegant solutions to complex problems. Leadership roles come naturally to me, and I relish the opportunity to guide teams toward effective outcomes.
 
-My goal in life is to learn something new everyday, being around great people and having a good time while doing so.
+Beyond the tech world, I'm into climbing, cooking, skateboarding, and chess. I am the happiest when I'm traveling and sharing good food with people who have interesting stories to tell are some of my favorite pastimes.
+
+My goal? To learn something new every day, surround myself with great people, and have a blast while doing it.
 
 ----
 ## Experience
@@ -27,8 +28,10 @@ September 2024 - Present
 February 2024 - Present
 - Focusing on novel attacks against authentication and access control solutions and applying them to various bug bounty programs.
 - Hacking on YesWeHack, Intigriti and HackerOne
-- Found vulnerabilities that resulted in 6+ CVEs, one of which in 
+- Found vulnerabilities that resulted in 6+ CVEs, including one that affected all major mobile
 - Submitted 5+ critical and 10+ high findings in the first 3 months of bug bounty hunting
+
+<div style="page-break-after: always;"></div>
 
 #### Debricked - Application Security Specialist & Backend Engineer
 June 2021 - February 2024
@@ -48,10 +51,11 @@ March 2023 - February 2024
 ----
 
 ## Security Research work
+- Passkey authentication bypass vulnerability ([CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956)) in Chrome mobile and all other major browsers. Research blogpost at: [https://mastersplinter.work/research/passkey/](https://mastersplinter.work/research/passkey/)
 - Uncovering vulnerabilities in the BankID authentication protocol: [link](https://mastersplinter.work/research/bankid/)
 	- Found and reported over 20+ vulnerabilities across Swedish banks and other institutions
 	- Presented such results at the Sec-T 2024 security conference in Stockholm
-- Passkey authentication bypass vulnerability ([CVE-2024-9956](https://nvd.nist.gov/vuln/detail/CVE-2024-9956)) in Chrome mobile and all other major browsers. Research blogpost at: [https://mastersplinter.work/research/passkey/](https://mastersplinter.work/research/passkey/)
+- Malicious Tensorflow models to gain RCE [https://mastersplinter.work/research/tensorflow-rce/](https://mastersplinter.work/research/tensorflow-rce/)
 ----
 
 ## CVEs
@@ -62,10 +66,14 @@ March 2023 - February 2024
 ----
 ## Bug Bounty Experience
 
-- [Intigriti](https://app.intigriti.com/profile/mastersplinter)
 - [HackerOne](https://hackerone.com/mastersplinter?type=user)
+- [Intigriti](https://app.intigriti.com/profile/mastersplinter)
 - [YesWeHack](https://yeswehack.com/hunters/mastersplinter)
+- [BugCrowd](https://bugcrowd.com/MasterSplinter)
 ----
+
+<div style="page-break-after: always;"></div>
+
 ## Certifications
 
 #### eWPTX - Web application Penetration Tester eXtreme
@@ -109,6 +117,9 @@ Year of Graduation: 2025 (Part time)
 - Published a challenge on HackTheBox demonstrating a novel way to attack OIDC implementations
 
 ----
+
+<div style="page-break-after: always;"></div>
+
 
 ## Contacts
 
