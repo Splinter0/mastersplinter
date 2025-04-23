@@ -15,9 +15,6 @@ I'm a security researcher and penetration tester with a deep passion for underst
 #### Truesec - Penetration Tester
 September 2024 - Present
 - Specializing in Web and IoT testing, led multiple projects with major manufacturers to help them identify vulnerabilities in their devices and related software.
-	- Using BLE man-in-the-middle techniques to take over smart devices.
-	- Taking over user accounts with novel OAuth attacks.
-	- Identified multiple Web vulnerabilities that could be chained to 
 - Took the lead role in multiple Red Team and assumed breach assessments, with special focus on evading EDRs and lateral movement using relaying techniques.
 - Always approaching every assignment with the goal of showing maximum impact, by chaining multiple vulnerabilities together, focusing on gaining the highest level of access possible from no access at all.
 
