@@ -1,34 +1,31 @@
 # Tobia Righi
 
+[splint@protonmail.com](mailto:splint@protonmail.com)
+
 **Languages:** Italian, English, Swedish and Spanish.
 
 ----
 
 ## Whoami
-
-
-I'm a security researcher and penetration tester with a deep passion for understanding and dissecting technology. I thrive on building innovative and secure solutions, as well as uncovering and exploiting security flaws. Those "aha!" moments, when I discover how something can be exploited and improved, are what drive me.
-
-I enjoy collaborating with like-minded individuals, bouncing ideas around, and finding elegant solutions to complex problems. Leadership roles come naturally to me, and I relish the opportunity to guide teams toward effective outcomes.
-
-Beyond the tech world, I'm into climbing, cooking, skateboarding, and chess. I am the happiest when I'm traveling and sharing good food with people who have interesting stories to tell are some of my favorite pastimes.
-
-My goal? To learn something new every day, surround myself with great people, and have a blast while doing it.
+I'm a security researcher and penetration tester with a deep passion for understanding and dissecting technology. I thrive on building innovative and secure solutions, as well as uncovering and exploiting security flaws. Those "aha!" moments, when I discover how something can be exploited and improved, are what drive me. I enjoy collaborating with like-minded individuals, bouncing ideas around, and finding elegant solutions to complex problems. Leadership roles come naturally to me, and I relish the opportunity to guide teams toward effective outcomes.
 
 ----
 ## Experience
 
 #### Truesec - Penetration Tester
 September 2024 - Present
-- Providing the highest quality of pentests for major Nordic clients
-- Working on web and api security, focusing on novel vulnerabilities and weaponized attack chains
-- Specializing in Web and IoT security
+- Specializing in Web and IoT testing, led multiple projects with major manufacturers to help them identify vulnerabilities in their devices and related software.
+	- Using BLE man-in-the-middle techniques to take over smart devices.
+	- Taking over user accounts with novel OAuth attacks.
+	- Identified multiple Web vulnerabilities that could be chained to 
+- Took the lead role in multiple Red Team and assumed breach assessments, with special focus on evading EDRs and lateral movement using relaying techniques.
+- Always approaching every assignment with the goal of showing maximum impact, by chaining multiple vulnerabilities together, focusing on gaining the highest level of access possible from no access at all.
 
 #### Self employed - Bug Bounty Hunter
 February 2024 - Present
-- Focusing on novel attacks against authentication and access control solutions and applying them to various bug bounty programs.
-- Hacking on YesWeHack, Intigriti and HackerOne
-- Found vulnerabilities that resulted in 6+ CVEs, including one that affected all major mobile
+- Focusing on novel attacks against authentication and access control solutions and applying them to various bug bounty programs. With a special focus on: cross device authentication, 2FA OAuth2 and PassKeys
+- Hacking on HackerOne, YesWeHack, Intigriti and BugCrowd
+- Found vulnerabilities that resulted in 6+ CVEs, including one that affected all major mobile browsers.
 - Submitted 5+ critical and 10+ high findings in the first 3 months of bug bounty hunting
 
 <div style="page-break-after: always;"></div>
@@ -36,18 +33,22 @@ February 2024 - Present
 #### Debricked - Application Security Specialist & Backend Engineer
 June 2021 - February 2024
 - Part of the core team developing a developer-centric SCA tool from startup phase to acquisition.
-- Responsible for driving **feature development** such as:
+- Responsible for driving feature development such as:
 	- Vulnerability matching & automated remediation
 	- Open source package selection
 	- Enterprise SSO and RBAC solutions 
-- Carrying out regular penetests against the Debricked product and infrastructure
+- Carrying out regular security reviews of new features.
 - Leading internal application security initiatives, bug bounty program and Capture The Flag competitions.
-- Responsible for the **product security** of Debricked within the OpenText organization.
+- Responsible for the product security of Debricked within the OpenText organization.
 
+----
 
-#### Synack Red Team - Security Researcher
-March 2023 - February 2024
-- Hunting bugs on private programs in web applications and APIs
+## Certifications
+
+#### eWPTX - Web application Penetration Tester eXtreme
+- Cert-id: [86992097](https://certs.ine.com/470afc18-bbd0-4a01-89fb-ff2af79bc122)
+#### CRTP - Certified Red Team Professional (Ongoing)
+
 ----
 
 ## Security Research work
@@ -70,14 +71,8 @@ March 2023 - February 2024
 - [Intigriti](https://app.intigriti.com/profile/mastersplinter)
 - [YesWeHack](https://yeswehack.com/hunters/mastersplinter)
 - [BugCrowd](https://bugcrowd.com/MasterSplinter)
-----
 
 <div style="page-break-after: always;"></div>
-
-## Certifications
-
-#### eWPTX - Web application Penetration Tester eXtreme
-- Cert-id: [86992097](https://certs.ine.com/470afc18-bbd0-4a01-89fb-ff2af79bc122)
 
 ----
 ## Education
@@ -92,11 +87,8 @@ Year of Graduation: 2025 (Part time)
 
 ## Technical Skills
 
-- ##### Programming languages I daily use:
-	- Python, PHP, Go and JavaScript
-- ##### Programming languages I am learning:
-	- Rust and PowerShell
-- 8+ years writing software, 4 of which professionally.
+- Python, Go, PHP, PowerShell and JavaScript
+- 8+ years writing software
 - Web & API pentesting techniques
 - IoT security best practices and exploitation
 - Vulnerability research processes
@@ -104,22 +96,7 @@ Year of Graduation: 2025 (Part time)
 - Kubernetes & Docker
 - CI/CD systems, Gitlab, Github and Azure
 - DevSecOps experience with AWS and Google Cloud
-- Bash and Linux administration skills
 - Software Supply Chain Security expertise
-- Experience with SCRUM and AGILE frameworks
-
-
-----
-
-## Recent Achievements
-- Published a new research blog about phishing Passkeys.
-- Published a new research blog about vulnerabilities found in Swedish BankID configurations
-- Published a challenge on HackTheBox demonstrating a novel way to attack OIDC implementations
-
-----
-
-<div style="page-break-after: always;"></div>
-
 
 ## Contacts
 
