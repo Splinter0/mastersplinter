@@ -1,5 +1,5 @@
 ---
-title: 'Finding SOQL Injection 0-Day in Salesforce'
+title: 'Finding an SOQL Injection 0-Day in Salesforce'
 description: "How an un-exploitable SOQL injection turned into a 0-day in Salesforce itself affecting millions of user records"
 date: 2025-06-08T12:12:44+01:00
 draft: false
